@@ -14,6 +14,7 @@ ul {
 
 li {
     float: right;
+    order: reverse;
 }
 
 li a {
@@ -24,6 +25,10 @@ li a {
     text-decoration: none;
   }
   
-  li a:hover {
+li a:hover {
     background-color: #111111;
-  }
+}
+
+#navigationBar{
+    display: inline;
+}
