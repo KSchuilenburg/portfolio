@@ -4,7 +4,7 @@ body{
     color: white;
 }
 
-ol {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,11 +12,15 @@ ol {
     background-color: black;
 }
 
-li {
+#navigationMenu {
+    float: right;
+}
+
+#navigationMenu li {
     float: inline-end;
 }
 
-li a {
+#navigationMenu li a {
     display: block;
     color: white;
     text-align: center;
@@ -24,7 +28,7 @@ li a {
     text-decoration: none;
   }
   
-li a:hover {
+#navigationMenu li a:hover {
     background-color: #111111;
 }
 
@@ -36,3 +40,13 @@ li a:hover {
     font-size: 16px;
     line-height: 28px;
 }
+
+.clear
+{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
