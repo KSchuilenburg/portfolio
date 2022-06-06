@@ -29,7 +29,8 @@ li a:hover {
     background-color: #111111;
 }
 
-#navigationBar{
+#navigationBar h1,
+#navigationBar nav{
     display: inline;
     vertical-align: top;
     font-family: 'Open Sans', sans-serif;
