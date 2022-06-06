@@ -17,7 +17,7 @@ ul {
 }
 
 #navigationMenu li {
-    float: inline-end;
+    float: left;
 }
 
 #navigationMenu li a {
