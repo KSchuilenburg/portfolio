@@ -13,7 +13,7 @@ ol {
 }
 
 li {
-    float: right;
+    float: inline-end;
 }
 
 li a {
