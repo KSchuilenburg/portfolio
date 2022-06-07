@@ -1,52 +1,37 @@
-body{
-    margin: 5;
+body {
     background: black;
     color: white;
+    margin: 0;
 }
 
 ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background-color: #333;
 }
 
-#navigationMenu {
+#navigationBar li {
     float: right;
+    font-size: 20px;
 }
 
-#navigationMenu li {
-    float: left;
-}
-
-#navigationMenu li a {
+#navigationBar li a {
     display: block;
     color: white;
     text-align: center;
     padding: 16px;
     text-decoration: none;
-  }
-  
-#navigationMenu li a:hover {
+}
+
+#navigationBar li a:not(.active):hover {
     background-color: #111111;
 }
 
-#navigationBar h1,
-#navigationBar nav{
-    display: inline;
-    vertical-align: top;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 28px;
+.active {
+    background-color: darkcyan;
 }
-
-.clear
-{
-    clear: both;
-    content: ".";
-    display: block;
-    height: 0;
-    visibility: hidden;
-}
-
