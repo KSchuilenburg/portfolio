@@ -35,3 +35,22 @@ ul {
 .active {
     background-color: darkcyan;
 }
+
+#welcomeMessage {
+    display: block;
+    margin-top: 5%;
+    padding: 1px;
+    background-color: white;
+}
+
+#welcomeMessage p {
+    font-size: 40px;
+    margin-left: 5%;
+    color: #008b8b;
+}
+
+#image_downarrow {
+    filter: invert(29%) sepia(29%) saturate(6342%) hue-rotate(163deg) brightness(94%) contrast(101%);
+    width: 42px;
+    height: 42px;
+}
