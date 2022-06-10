@@ -39,7 +39,7 @@ ul {
 #welcomeMessage {
     display: block;
     margin-top: 5%;
-    padding: 1px;
+    padding: 5px;
     background-color: white;
 }
 
@@ -49,6 +49,17 @@ ul {
     color: #008b8b;
 }
 
+.column {
+    float: left;
+    width: 50%;
+}
+
+#work_images::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 #image_downarrow {
     filter: invert(29%) sepia(29%) saturate(6342%) hue-rotate(163deg) brightness(94%) contrast(101%);
     width: 42px;
@@ -56,5 +67,17 @@ ul {
 }
 
 #image_frontend {
-    width: 800px;
+    width: 100%;
+}
+
+#image_games {
+    width: 100%;
+}
+
+#image_contact {
+    width: 100%;
+}
+
+#image_plants {
+    width: 100%;
 }
