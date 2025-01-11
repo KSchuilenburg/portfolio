@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: black;
     color: white;
@@ -44,21 +48,21 @@ ul {
     background-color: white;
 }
 
-#welcomeMessage p {
+#welcomeMessage h2 {
     font-size: 40px;
     margin-left: 5%;
     color: #008b8b;
 }
 
+#welcomeMessage p {
+    font-size: 32px;
+    margin-left: 5%;
+    color: #666;
+}
+
 .column {
     float: left;
     width: 50%;
-}
-
-#work_images::after {
-    content: "";
-    clear: both;
-    display: table;
 }
 
 #image_downarrow {
@@ -67,109 +71,125 @@ ul {
     height: 42px;
 }
 
-#image_frontend {
-    width: 100%;
-    height: 35%;
+#about h2 {
+    font-size: 32px;
+    margin-left: 5%;
+    color: #008b8b;
 }
 
-#image_games {
-    width: 100%;
-    height: 35%;
+#about p {
+    font-size: 24px;
+    margin-left: 5%;
+    color: #666;
 }
 
-#image_contact {
-    width: 100%;
-    height: 35%;
+#work h2 {
+    font-size: 32px;
+    margin-left: 5%;
+    color: #008b8b;
 }
 
-#image_plants {
-    width: 100%;
-    height: 35%;
+#work p {
+    font-size: 24px;
+    margin-left: 5%;
+    color: #55c3c3;
 }
 
-#wrapper{
-    position: relative;
+#contact h2 {
+    font-size: 32px;
+    margin-left: 5%;
+    color: #008b8b;
+}
+
+#contact p {
+    font-size: 24px;
+    margin-left: 5%;
+    color: #55c3c3;
+}
+
+.email-button {
+    display: inline-block;
+    margin-left: 5%;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #55c3c3;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
     text-align: center;
-    color: cyan;
-    font-size: 30px;
-}
-#wrapper2{
-    position: relative;
-    text-align: center;
-    color: cyan;
-    font-size: 30px;
-}
-#wrapper3{
-    position: relative;
-    text-align: center;
-    color: cyan;
-    font-size: 30px;
-}
-#wrapper4{
-    position: relative;
-    text-align: center;
-    color: cyan;
-    font-size: 30px;
 }
 
-#wrapper:hover .titleFront{
-    border-radius: 15px;
-    background-color: rgba(0,0,0,0.6);
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 4px;
-    display:block;
+.email-button:hover {
+    background-color: #008b8b;
+    color: #111111;
 }
 
-#wrapper:hover #image_frontend{
-    background-color: black;
-    transform: scale(0.9);
-    filter: grayscale(100%);
-}
-#wrapper2:hover .title{
-    border-radius: 15px;
-    background-color: rgba(0,0,0,0.6);
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-bottom: 4px;
-    display:block;
-}
-#wrapper2:hover #image_games{
-    filter: grayscale(100%);
-}
-#wrapper3:hover .title{
-    border-radius: 15px;
-    background-color: rgba(0,0,0,0.6);
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 4px;
-    display:block;
-}
-#wrapper3:hover #image_contact{
-    filter: grayscale(100%);
-}
-#wrapper4:hover .title{
-    border-radius: 15px;
-    background-color: rgba(0,0,0,0.6);
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 4px;
-    display:block;
-}
-#wrapper4:hover #image_plants{
-    filter: grayscale(100%);
+/* Container for work blocks */
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
 }
 
-.title{
-    display: none;
-    position: absolute;
-    top:45%;
-    left: 40%;
+/* Individual work block */
+.work-block {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: calc(50% - 20px);
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
 }
 
-.titleFront{
-    display: none;
-    position: absolute;
-    top:45%;
-    left: 35%;
+.work-block:hover {
+    transform: scale(1.05);
+}
+
+/* Image styling */
+.work-block img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Content inside the block */
+.work-content {
+    padding: 15px;
+}
+
+/* Title */
+.work-title {
+    color: #008b8b;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Description */
+.work-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Tags */
+.work-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.work-tag {
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: #55c3c3;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
 }
