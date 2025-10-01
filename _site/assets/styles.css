@@ -1,0 +1,206 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: black;
+    color: white;
+    margin: 0;
+}
+
+#navigationBar li {
+    float: right;
+    font-size: 20px;
+}
+
+#navigationBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#navigationBar li a:not(.active):hover {
+    background-color: #111111;
+}
+
+.active {
+    background-color: darkcyan;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#welcomeMessage {
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    background-color: #e2e2e2;
+}
+
+#welcomeMessage h2 {
+    font-size: 40px;
+    margin-left: 40%;
+    color: #008b8b;
+}
+
+#welcomeMessage p {
+    font-size: 32px;
+    margin-left: 43%;
+    color: #666;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+#about {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#about h2 {
+    font-size: 32px;
+    margin-left: 5%;
+    color: #008b8b;
+}
+
+#about p {
+    font-size: 24px;
+    margin-left: 5%;
+    color: #666;
+}
+
+#work {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#work h2 {
+    font-size: 32px;
+    margin-left: 5%;
+    color: #008b8b;
+}
+
+#work p {
+    font-size: 24px;
+    margin-left: 5%;
+    color: #55c3c3;
+}
+
+#contact {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#contact h2 {
+    font-size: 32px;
+    margin-left: 5%;
+    color: #008b8b;
+}
+
+#contact p {
+    font-size: 24px;
+    margin-left: 5%;
+    color: #55c3c3;
+}
+
+.email-button {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5%;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #55c3c3;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.email-button:hover {
+    background-color: #008b8b;
+    color: #111111;
+}
+
+/* Container for work blocks */
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Individual work block */
+.work-block {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: calc(50% - 20px);
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.work-block:hover {
+    transform: scale(1.05);
+}
+
+/* Image styling */
+.work-block img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Content inside the block */
+.work-content {
+    padding: 15px;
+}
+
+/* Title */
+.work-title {
+    color: #008b8b;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Description */
+.work-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Tags */
+.work-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.work-tag {
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: #55c3c3;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+}

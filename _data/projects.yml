@@ -1,0 +1,95 @@
+- title: Crow's Nest
+  link: /projects/crows-nest.html
+  external: https://buas.itch.io/team-chili 
+  image: /assets/images/Crows_nest_cover.png
+  description: University project where a team of 13 students was tasked with creating a game inspired by "Lovers in a Dangerous Spacetime" in 8 weeks.
+  tags:
+    - Student Project
+    - Unreal Engine
+    - Blueprints
+    - AI
+    - Console
+
+- title: Physics & AI Showcase
+  link:
+  external:
+  image: /assets/images/Week5-collision.gif
+  description: "University project where I learned the fundamentals of programming Physics & AI behaviour in a custom engine. Topics discussed included: A*, graphs, navmesh, collision detection + resolution."
+  tags:
+    - Student Project
+    - Custom Engine
+    - C++
+    - Physics & AI
+    - PC
+
+- title: Racing Game Engine
+  link:
+  external:
+  image: /assets/images/attraction_point_following-ezgif.com-video-to-gif-converter.gif
+  description: University project where I worked with 5 programmers to create a racing game engine. I was responsible for AI behaviour of the cars on the track. The engine runs on PC and SteamDeck, made in 8 weeks.
+  tags:
+    - Student Project
+    - Custom Engine
+    - C++
+    - Physics & AI
+    - PC & SteamDeck
+
+- title: Couzin's Model Flocking Behaviour
+  link: https://dev.to/kschuilenburg/simulating-realistic-group-behaviour-using-couzins-model-in-c-152g
+  external:
+  image: /assets/images/flocking_agents_obstacles_showcase-ezgif.com-speed.gif
+  description: Research project on physically accurate flocking behaviour using Couzin's Model. Agents avoid, align, and move towards other agents to exhibit realistic flocking.
+  tags:
+    - Student Project
+    - Custom Engine
+    - C++
+    - Physics & AI
+    - PC
+
+- title: I Won't Forget Hue
+  link: https://store.steampowered.com/app/2236880/I_Wont_Forget_Hue/
+  external:
+  image: /assets/images/I_Wont_Forget_Hue_cover.png
+  description: 3D Unity game created in a 16-student team over 14 weeks. I acted as lead developer. Released on Steam with over 20,000 downloads.
+  tags:
+    - Student Project
+    - Unity Engine
+    - C#
+    - Lead Developer
+    - PC
+
+- title: Vanishing Worlds
+  link: https://cosmic-noodle-collective.itch.io/vanishing-worlds
+  external:
+  image: /assets/images/Vanishing_worlds_cover.png
+  description: Game created in a 3-person team. Each member did Design, Programming, and Art. Finished in 4 weeks.
+  tags:
+    - Personal/Group Project
+    - Unity Engine
+    - C#
+    - Gameplay
+    - PC
+
+- title: Tub Troubles
+  link: https://luminora-games.itch.io/tub-troubles
+  external:
+  image: /assets/images/tub_troubles_cover.jpg
+  description: Small 5-person game studio simulation project. I did programming tasks. Finished in 6 weeks.
+  tags:
+    - Personal/Group Project
+    - Unity Engine
+    - C#
+    - Gameplay
+    - Mobile
+
+- title: SeaBeat
+  link: https://neonova-studios.itch.io/seabeat
+  external:
+  image: /assets/images/Seabeat_cover.png
+  description: 2D mobile game project created by 5 people over 6 weeks. I handled programming tasks.
+  tags:
+    - Student Project
+    - Unity Engine
+    - C#
+    - Gameplay
+    - Mobile
