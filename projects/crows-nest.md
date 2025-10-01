@@ -21,5 +21,5 @@ title: Crow's Nest
     </ul>
   </p>
 
-  <img src="/assets/images/Crows_nest_cover.png" alt="Crow's Nest Cover">
+  <img src="{{ site.baseurl }}/assets/images/Crows_nest_cover.png" alt="Crow's Nest Cover">
 </div>
