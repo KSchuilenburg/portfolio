@@ -22,8 +22,8 @@ title: Portfolio
   <div class="work-container">
     {% for project in site.data.projects %}
       <div class="work-block">
-        <a href="{{ project.link }}" target="_blank">
-          <img src="{{ site.baseurl }}{{ project.image }}" alt="{{ project.title }}">
+        <a href="{{ site.baseurl }}{{ project.link }}" target="_blank">
+          <img src="{{ site.baseurl }}{{ project.image }}" alt="{{ site.baseurl }}{{ project.title }}">
         </a>
         <div class="work-content">
           <div class="work-title">{{ project.title }}</div>
