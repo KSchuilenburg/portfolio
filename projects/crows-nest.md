@@ -12,7 +12,6 @@ title: Crow's Nest
   </p>
 
   <p>
-    Here you can go more in depth about:
     <ul>
       <li>My role in the project</li>
       <li>Technologies used (Unreal, Blueprints, AI)</li>
@@ -21,5 +20,5 @@ title: Crow's Nest
     </ul>
   </p>
 
-  <img src="{{ site.baseurl }}/assets/images/Crows_nest_cover.png" alt="Crow's Nest Cover">
+  <img src="/assets/images/Crows_nest_cover.png" alt="Crow's Nest Cover">
 </div>
