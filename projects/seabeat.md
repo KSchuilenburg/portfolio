@@ -1,10 +1,16 @@
 ---
-layout: default
+layout: projects
 title: SeaBeat
+external: https://neonova-studios.itch.io/seabeat
+image: /assets/images/Seabeat_cover.png
+description: 2D mobile game project created by 5 people over 6 weeks. I handled programming tasks.
+tags:
+  - Student Project
+  - Unity Engine
+  - C#
+  - Gameplay
+  - Mobile
 ---
-
-<div id="project-detail">
-  <h2>SeaBeat</h2>
 
   <p>
     2D mobile game project created by 5 people over 6 weeks. I handled programming tasks.
@@ -18,6 +24,3 @@ title: SeaBeat
       <li>Outcome / Screenshots / Videos</li>
     </ul>
   </p>
-
-  <img src="/assets/images/Seabeat_cover.png" alt="SeaBeat Cover">
-</div>

@@ -1,0 +1,59 @@
+/* Import base styles from styles.css if needed */
+@import url("styles.css");
+
+/* Expanded project block container */
+.work-block.expanded {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 4rem auto;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+/* Larger image for project pages */
+.work-block.expanded img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1.5rem;
+}
+
+/* Expanded content styling */
+.work-block.expanded .work-content {
+    padding: 20px;
+}
+
+/* Bigger title */
+.work-block.expanded .work-title {
+    font-size: 24px;
+    color: #008b8b;
+    margin-bottom: 1rem;
+}
+
+/* More readable description */
+.work-block.expanded .work-description {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+/* Details section inside project page */
+.work-details {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #fafafa;
+    border-left: 4px solid #008b8b;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #333;
+}
+
+/* Expand tags */
+.work-block.expanded .work-tags {
+    margin-top: 1.5rem;
+}

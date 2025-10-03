@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/projects.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+    </header>
+
+    <main>
+      <div class="work-block expanded">
+        <a href="{{ page.external }}" target="_blank">
+          <img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.title }}">
+        </a>
+        <div class="work-content">
+          <div class="work-title">{{ page.title }}</div>
+          <div class="work-description">{{ page.description }}</div>
+
+          <!-- Extra details unique to project pages -->
+          <div class="work-details">
+            {{ content }}
+          </div>
+
+          <div class="work-tags">
+            {% for tag in page.tags %}
+              <span class="work-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
