@@ -14,9 +14,6 @@ tags:
 
 <p>
   <ul>
-    <li>My role in the project</li>
-    <li>Technologies used (Custom C++ Engine, Physics, AI)</li>
-    <li>Challenges faced and how I solved them</li>
-    <li>Outcome / Screenshots / Videos</li>
+    <li>Fundamentals of physics and AI were taught during this block. This was really the moment where my love for programming AI behaviour started. Learning about pathfinding, A* and its underlying graphs was really interesting to me. After this block, I did a deep-dive into steering behaviour inspired by the AI techniques taught during this block.</li>
   </ul>
 </p>

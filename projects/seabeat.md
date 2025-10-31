@@ -14,9 +14,7 @@ tags:
 
   <p>
     <ul>
-      <li>My role in the project</li>
-      <li>Technologies used (Unity Engine, Gameplay Programmer)</li>
-      <li>Challenges faced and how I solved them</li>
-      <li>Outcome / Screenshots / Videos</li>
+      <li>First ever complete game I made. It was a great experience to work together with other programmers, artists and designers for the first time to deliver a great and fun game. We created a music rhythm game where you tap and swipe to the rhythm to shoot sea creatures. Since we were a small team of 5, I had a lot of different responsibilities. I made the UI, the endless mode, and the timeline for notes (sea creatures).</li>
+      <li> <a href="https://www.youtube.com/watch?v=aE4fpuPt_0g" target="_blank">Link to video trailer</a> </li>
     </ul>
   </p>

@@ -14,9 +14,6 @@ tags:
 
 <p>
   <ul>
-    <li>My role in the project</li>
-    <li>Technologies used (Unity Engine, Gameplay Programmer)</li>
-    <li>Challenges faced and how I solved them</li>
-    <li>Outcome / Screenshots / Videos</li>
+    <li>Working in a small team with 2 programmers, 3 designers, of which 2 also acted as artists, I had to put on many hats. Programming tasks, but also design-related tasks, and helping artists to work with the game engine when necessary. I worked on the audio manager, UI, and the buoys in which to put the ducks.</li>
   </ul>
 </p>

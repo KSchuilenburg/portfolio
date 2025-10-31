@@ -14,9 +14,6 @@ tags:
 
 <p>
   <ul>
-    <li>My role in the project</li>
-    <li>Technologies used (Unity Engine, Generalist Developer)</li>
-    <li>Challenges faced and how I solved them</li>
-    <li>Outcome / Screenshots / Videos</li>
+    <li>Working together with 2 friends, we each had a lot of responsibilities working on this project. I worked on the player controller, level progression, timer, design tasks related to game feel, and just designing the gameplay loop in general. It was great fun to work on this project where we had a bit more time than during a game jam, but still quite a tight schedule.</li>
   </ul>
 </p>
