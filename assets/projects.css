@@ -1,9 +1,3 @@
-.electrolize-regular {
-    font-family: "Electrolize", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +5,9 @@
 }
 
 body {
+    font-family: "Electrolize", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     line-height: 1.6;
     color: #333;
     background: linear-gradient(135deg, #f5f5f5 0%, #e8f4f4 100%);
