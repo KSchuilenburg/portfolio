@@ -2,7 +2,7 @@
 layout: projects
 title: Couzin's Model Flocking Behaviour
 external:
-image: /assets/images/Week5-collision.gif
+image: /assets/images/attraction_point_following-ezgif.com-video-to-gif-converter.gif
 description: "University project where I learned the fundamentals of programming Physics & AI behaviour in a custom engine. Topics discussed included: A*, graphs, navmesh, collision detection + resolution."
 tags:
   - Student Project

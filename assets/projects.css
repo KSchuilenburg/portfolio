@@ -147,6 +147,12 @@ main {
     box-shadow: 0 2px 8px rgba(0, 139, 139, 0.1);
 }
 
+img {
+    max-width: 800px;
+    height: auto;
+    display: block;
+}
+
 @media (max-width: 768px) {
     body {
         padding: 10px;
