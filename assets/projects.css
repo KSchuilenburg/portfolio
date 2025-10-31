@@ -64,7 +64,7 @@ main {
 .work-block img {
     width: 100%;
     height: 400px;
-    object-fit: cover;
+    object-fit: scale-down;
     display: block;
     transition: transform 0.4s ease;
     border-radius: 8px 8px 0 0;
