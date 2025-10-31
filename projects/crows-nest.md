@@ -13,11 +13,6 @@ tags:
 ---
 
 <p>
-  University project where a team of 13 students was tasked with creating a game inspired by 
-  "Lovers in a Dangerous Spacetime" in 8 weeks.
-</p>
-
-<p>
   <ul>
     <li>My role in the project</li>
     <li>Technologies used (Unreal, Blueprints, AI)</li>

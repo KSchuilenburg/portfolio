@@ -13,10 +13,6 @@ tags:
 ---
 
 <p>
-  Game created in a 3-person team. Each member did Design, Programming, and Art. Finished in 4 weeks.
-</p>
-
-<p>
   <ul>
     <li>My role in the project</li>
     <li>Technologies used (Unity Engine, Generalist Developer)</li>

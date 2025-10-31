@@ -13,10 +13,6 @@ tags:
 ---
 
 <p>
-  3D Unity game created in a 16-student team over 14 weeks. I acted as lead developer. Released on Steam with over 20,000 downloads.
-</p>
-
-<p>
   <ul>
     <li>My role in the project</li>
     <li>Technologies used (Unity Engine, Technical Lead)</li>

@@ -13,10 +13,6 @@ tags:
 ---
 
 <p>
-  University project where I learned the fundamentals of programming Physics & AI behaviour in a custom engine. Topics discussed included: A*, graphs, navmesh, collision detection + resolution.
-</p>
-
-<p>
   <ul>
     <li>My role in the project</li>
     <li>Technologies used (Custom C++ Engine, Physics, AI)</li>

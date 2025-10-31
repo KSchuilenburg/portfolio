@@ -13,10 +13,6 @@ tags:
 ---
 
 <p>
-  University project where I worked with 5 programmers to create a racing game engine. I was responsible for AI behaviour of the cars on the track. The engine runs on PC and SteamDeck, made in 8 weeks.
-</p>
-
-<p>
   <ul>
     <li>My role in the project</li>
     <li>Technologies used (Custom C++ Engine, AI)</li>

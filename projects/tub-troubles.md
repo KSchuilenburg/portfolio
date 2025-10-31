@@ -13,10 +13,6 @@ tags:
 ---
 
 <p>
-  Small 5-person game studio simulation project. I did programming tasks. Finished in 6 weeks.
-</p>
-
-<p>
   <ul>
     <li>My role in the project</li>
     <li>Technologies used (Unity Engine, Gameplay Programmer)</li>

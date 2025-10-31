@@ -13,10 +13,6 @@ tags:
 ---
 
 <p>
-  Research project on physically accurate flocking behaviour using Couzin's Model. Agents avoid, align, and move towards other agents to exhibit realistic flocking.
-</p>
-
-<p>
   <ul>
     <li>My role in the project</li>
     <li>Technologies used (Custom C++ Engine, AI)</li>
