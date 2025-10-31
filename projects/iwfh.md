@@ -20,7 +20,7 @@ tags:
     </li>
     <!-- <li> <a href="https://www.youtube.com/watch?v=nmKsOtgYTGI" target="_blank">Link to video trailer</a> </li> -->
     <li> <iframe width="420" height="315"
-      src="https://www.youtube.com/embed/v=nmKsOtgYTGI?autoplay=1&mute=1">
+      src="https://www.youtube.com/embed/nmKsOtgYTGI?autoplay=1&mute=1">
       </iframe> 
     </li>
   </ul>
