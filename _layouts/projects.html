@@ -20,11 +20,6 @@
           <div class="work-title">{{ page.title }}</div>
           <div class="work-description">{{ page.description }}</div>
 
-          <!-- Extra details unique to project pages -->
-          <div class="work-details">
-            {{ content }}
-          </div>
-
           <div class="work-tags">
             {% for tag in page.tags %}
               <span class="work-tag">{{ tag }}</span>
