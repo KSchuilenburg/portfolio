@@ -9,11 +9,11 @@ title: Portfolio
 </div>
 
 <div id="about">
-  <h2>About Me [WIP]</h2>
+  <h2>About Me</h2>
   <p>
-    Student at Breda University of Applied Sciences<br>
-    Gameplay & AI programmer<br>
-    Experience with Unreal, Unity, Godot, custom C++ engine
+    I am currently a Year 4 student at Breda University of Applied Sciences.<br>
+    If I had to name a specific domain I am passionate about, it would be gameplay & AI.<br>
+    Experience working with Unreal Engine, Unity, Godot, and custom C++ engines.
   </p>
 </div>
 
