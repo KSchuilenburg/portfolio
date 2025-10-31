@@ -63,7 +63,8 @@ main {
 
 .work-block img {
     width: 100%;
-    height: auto;
+    height: 400px;
+    object-fit: cover;
     display: block;
     transition: transform 0.4s ease;
     border-radius: 8px 8px 0 0;
@@ -145,12 +146,6 @@ main {
     border-left-color: #008b8b;
     transform: translateX(5px);
     box-shadow: 0 2px 8px rgba(0, 139, 139, 0.1);
-}
-
-img {
-    max-width: 800px;
-    height: auto;
-    display: block;
 }
 
 @media (max-width: 768px) {
