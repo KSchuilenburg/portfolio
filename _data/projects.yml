@@ -1,3 +1,15 @@
+- title: Inferno
+  link: /projects/inferno.html
+  external: https://buas.itch.io/inferno
+  image: /assets/images/enemies_showcase.gif
+  description: University project where 2 programmers, 5 designers, and 11 artists were tasked with expanding a third-person speedrunning prototype to a full-fledged game in 8 weeks. I was a technical lead on the team.
+  tags:
+    - Student Project
+    - Unreal Engine
+    - Jenkins
+    - AI & Gameplay
+    - PC
+
 - title: Crow's Nest
   link: /projects/crows-nest.html
   external: https://buas.itch.io/team-chili 
