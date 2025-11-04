@@ -43,4 +43,6 @@ title: Portfolio
 <div id="contact">
   <h2>Contact Me</h2>
   <a href="mailto:Kylianschuilenburg@live.nl" class="email-button">Email</a>
+  <a href="/assets/Kylian_Schuilenburg.pdf" target="blank" class="email-button">Resume</a>
+  <a href="https://killyyuun.itch.io/" target="blank" class="email-button">Itch.io</a>
 </div>
