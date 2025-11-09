@@ -199,3 +199,7 @@ ul {
     border-radius: 5px;
     display: inline-block;
 }
+
+#links-widget {
+    padding-left: 5%;
+}
