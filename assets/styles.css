@@ -44,7 +44,7 @@ ul {
 
 #welcomeMessage {
     display: block;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 5%;
     padding-top: 3%;
     padding-bottom: 2%;
@@ -103,8 +103,8 @@ ul {
 }
 
 #contact {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #contact h2 {
