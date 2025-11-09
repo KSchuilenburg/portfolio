@@ -201,6 +201,12 @@ ul {
 }
 
 #links-widget {
-    padding-left: 2%;
+    padding-left: 5%;
     padding-bottom: 5%;
+}
+
+#links-widget h2 {
+    font-size: 32px;
+    margin-left: 5%;
+    color: #008b8b;
 }
