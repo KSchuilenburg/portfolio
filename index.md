@@ -47,7 +47,8 @@ title: Portfolio
   <a href="https://killyyuun.itch.io/" target="blank" class="email-button">Itch.io</a>
 </div>
 
+
 <div id="links-widget">
-    <h2>All my Links</h2>
-    <iframe src="https://allmylinks.com/widget/profile/kylians-dev.html?dark=1&big=1" width="395" height="323.8" style="max-width:100%;display: block; margin: 0; border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+  <h2>All my Links</h2>
+  <iframe src="https://allmylinks.com/widget/profile/kylians-dev.html?dark=1&big=1" width="395" height="323.8" style="max-width:100%;display: block; margin: 0; border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
