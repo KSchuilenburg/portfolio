@@ -50,5 +50,5 @@ title: Portfolio
 
 <div id="links-widget">
   <h2>All my Links</h2>
-  <iframe src="https://allmylinks.com/widget/profile/kylians-dev.html?dark=1&big=0" width="395" height="199.6" style="max-width:100%;display: block; margin: 0; border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+  <iframe class="links-iframe" src="https://allmylinks.com/widget/profile/kylians-dev.html?dark=1&big=0" width="395" height="199.6" style="max-width:100%;display: block; margin: 0; border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>

@@ -211,6 +211,6 @@ ul {
     color: #008b8b;
 }
 
-#links-widget iframe {
+.links-iframe{
     margin-left: 5%;
 }
