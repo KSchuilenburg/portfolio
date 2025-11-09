@@ -202,8 +202,8 @@ ul {
 
 #links-widget {
     /* margin-left: 5%; */
-    /* margin-bottom: 5%; */
-    padding-bottom: 5%;
+    margin-bottom: 5%;
+    /* padding-bottom: 5%; */
 }
 
 #links-widget h2 {
