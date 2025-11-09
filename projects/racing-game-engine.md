@@ -25,7 +25,7 @@ tags:
     <br>
     <h2>Recommendation: Don't Crash.</h2>
     <p>Solution: Track Nodes</p>
-    <img src="/assets/images/racing-engine/Track_Nodes.png" width="500" height="79">
+    <img id=" src="/assets/images/racing-engine/Track_Nodes.png" style="width:500px; height:79px;">
     <br>
     <h2>Banana Peel on the Road.</h2>
     <p>How do we place track nodes on the track? (optimally, and then my solution)</p>
