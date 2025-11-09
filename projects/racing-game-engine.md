@@ -23,13 +23,14 @@ tags:
     <h2>Take the Wheel!</h2>
     <p>What prevents a CPU in Mario Kart from brutally crashing Mario into the closest barricade on the track? Do CPUs in Formula 1 know when to overtake the car in front of them? Why do I never feel in a 'hopeless' situation while playing Mario Kart 200cc mirrored Rainbow Road?</p>
     <br>
-    <h2>Recommendation: Don't crash.</h2>
-    <p>Solution: Track nodes</p>
+    <h2>Recommendation: Don't Crash.</h2>
+    <p>Solution: Track Nodes</p>
+    <img src="/assets/images/racing-engine/Track_Nodes.png" width="500" height="79">
     <br>
-    <h2>Banana Peel on the road.</h2>
+    <h2>Banana Peel on the Road.</h2>
     <p>How do we place track nodes on the track? (optimally, and then my solution)</p>
     <br>
-    <h2>All systems go!</h2>
+    <h2>All Systems Go!</h2>
     <p>Demonstration</p>
   </li>
 </ul>
