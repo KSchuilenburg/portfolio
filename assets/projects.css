@@ -50,6 +50,14 @@ main {
     padding: 40px;
 }
 
+code {
+    background-color: #333;
+    color: #55c3c3;
+    border-radius: 2px;
+    padding: 1px 2px;
+    font-size: 0.8rem;
+}
+
 .work-block {
     background: white;
     border-radius: 8px;

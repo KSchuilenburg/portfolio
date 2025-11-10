@@ -30,6 +30,7 @@ tags:
     <br>
     A basic setup for track nodes in code is the following:
     </p>
+    <br>
     <img src="/assets/images/racing-engine/Track_Nodes.png" style="width:100%; height:auto;">
     <br>
     <h2>🍌 Banana Peel on the Road.</h2>
@@ -41,7 +42,8 @@ tags:
     <p>There's still a problem we need to address that is quite common in pathfinding, namely; the movement looks stiff if the agent just moves from track node to track node. A technique used with A* pathfinding can also be applied here: the Attraction Point.
     <br>
     The attraction point is a location a specified distance in front of the agent on the line of the path it is trying to follow. Instead of directly moving towards the next track node, it moves towards the attraction point, effectively cutting corners in turns.</p>
-    <img src="/assets/images/racing-engine/attraction_point_diagram.png" style="width:100%; height:auto;">
+    <br>
+    <img src="/assets/images/racing-engine/attraction_point_diagram.png" style="width: 250px;height: 100%;justify-self: center;">
     <br>
     <p>The setup for an attraction point is surprisingly simple, but there are a couple of requirements needed:
     <br>
@@ -53,13 +55,17 @@ tags:
     <br>
     That is pretty much it though. Below is a basic code setup with this information.
     </p>
+    <br>
     <img src="/assets/images/racing-engine/attraction_point.png" style="width:100%; height:auto;">
+    <br>
     <p><code>attractionProgress</code> determines position of the attraction point projected on the current line segment.
     <br>
     If the <code>attractionProgress</code> exceeds the current line segment, we are on the next line segment.
     <br>
     Finally, we determine the next position of <code>attractionPoint</code> by lerping between <code>currentSegment.startNodePosition</code> and <code>currentSegment.endNodePosition</code> according to the <code>attractionProgress</code>.</p>
+    <br>
     <img src="/assets/images/racing-engine/attraction_point (1).png" style="width:100%; height:auto;">
+    <br>
     <p>The previous implementation does not take into account a situation where the <code>attractionProgress</code> skips over an entire segment. The above improved version changes the code slightly to smoothly move over each line segment.
     <br>
     To add a bit of variation in the agent's behavior, instead of directly following the attraction point, by introducing a slight perpendicular offset left or right (<code>perpendicular * lateralOffset</code>), the agent moves slightly more organic and with 'errors'.</p>
