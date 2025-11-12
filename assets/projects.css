@@ -78,9 +78,9 @@ code {
     border-radius: 8px 8px 0 0;
 }
 
-.work-block a:hover img {
+/* .work-block a:hover img {
     transform: scale(1.02);
-}
+} */
 
 .work-content {
     padding: 30px;
@@ -120,10 +120,10 @@ code {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.work-tag:hover {
+/* .work-tag:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 139, 139, 0.3);
-}
+} */
 
 .work-content>p {
     color: #444;
@@ -149,12 +149,12 @@ code {
     transition: all 0.3s ease;
 }
 
-.work-content ul li:hover {
+/* .work-content ul li:hover {
     background: #eef7f7;
     border-left-color: #008b8b;
     transform: translateX(5px);
     box-shadow: 0 2px 8px rgba(0, 139, 139, 0.1);
-}
+} */
 
 @media (max-width: 768px) {
     body {
