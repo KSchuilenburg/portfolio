@@ -209,3 +209,11 @@ code {
         padding: 5px 12px;
     }
 }
+
+video::-webkit-media-controls-volume-slider {
+    display: none;
+}
+
+video::-webkit-media-controls-mute-button {
+    display: none;
+}

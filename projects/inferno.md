@@ -35,7 +35,7 @@ tags:
       <br>
       One bug we encountered late into the development cycle happened because enemies always tried to rotate towards the player, no matter the distance. Since enemies don't damage the player when making direct contact, it resulted in the following unfortunate, although funny, situation:
       <br>
-      <video width="100%" height="auto" autoplay muted>
+      <video width="100%" height="auto" autoplay muted loop controls>
         <source src="/assets/images/Inferno/bug_rotating_enemy.mp4" type="video/mp4">
       </video>
       <br>
@@ -68,7 +68,7 @@ tags:
       <br>
       Slightly more tedious to set up but very valuable for control was checking for forbidden characters. There is no functionality for determining if there is a special character included in a string. We want to prevent users from using special characters that might escape its intended scope, but also want control over what characters that include. The solution was to create an array of forbidden characters. It was more of a setup to manually fill in all the forbidden characters, but now, if we want to include or exclude a certain character, the setup does not need to change at all. The character is simply added or removed from the array. The provided name is tested against the forbidden characters, and if a forbidden character is encountered, the user is informed and can enter a new name. The full implementation of this basic regex is shown in the following video.
       <br>
-      <video width="100%" height="auto" autoplay muted>
+      <video width="100%" height="auto" autoplay muted loop controls>
         <source src="/assets/images/Inferno/leaderboard_regex_and_availability.mp4" type="video/mp4">
       </video>
       <br>
