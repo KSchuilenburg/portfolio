@@ -11,9 +11,12 @@ title: Portfolio
 <div id="about">
   <h2>About Me</h2>
   <p>
-    I am currently a Year 4 student at Breda University of Applied Sciences.<br>
-    If I had to name a specific domain I am passionate about, it would be gameplay & AI.<br>
-    Experience working with Unreal Engine, Unity, Godot, and custom C++ engines.
+    I am a Game Developer with a passion for Gameplay and Game AI. <br>
+    I have experience working with Unreal Engine, Unity, Godot, and custom C++ engines. <br>
+    <br>
+    In addition to Entertainment Games, I have a great interest in Serious Games. Using the entertaining side of games as a means of education is something I am believe in and am passionate about. Games can be more than just entertainment and I will do my best to prove that. <br>
+    <br>
+    While I also like creating small games on my own, I deeply value the interdisciplinary aspect of games. I try my best to be a team player and help where I can. I have experience working in smaller teams (3-5 people) and larger teams (12-16 people). Since I value working in a team, I have also taken a lead role in teams to ensure both the programmers and the rest of the team have a smooth working environment.
   </p>
 </div>
 
